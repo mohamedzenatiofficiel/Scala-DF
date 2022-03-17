@@ -1,0 +1,142 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\zmoha\AppData\Local\Temp\idea8.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\zmoha\AppData\Local\Temp\idea8.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.5.8 (Oracle Corporation Java 11.0.12)
+[debug]       Load.loadUnit: plugins took 154.1723ms
+[debug]       Load.loadUnit: defsScala took 0.3963ms
+[debug] [Loading] Scanning directory C:\Users\zmoha\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\zmoha\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 24.8641 ms
+[debug]           Load.resolveProject(global-plugins) took 60.7579ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\zmoha\.sbt\1.0\plugins, plugins: List(<none>))) took 123.3431ms
+[debug] [Loading] Done in C:\Users\zmoha\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 153.4294ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.3897ms
+[debug]     Load.loadUnit(file:/C:/Users/zmoha/.sbt/1.0/plugins/, ...) took 321.4709ms
+[debug]   Load.apply: load took 668.6569ms
+[debug]   Load.apply: resolveProjects took 11.0607ms
+[debug]   Load.apply: finalTransforms took 105.095ms
+[debug]   Load.apply: config.delegates took 10.7609ms
+[debug]   Load.apply: Def.make(settings)... took 549.2219ms
+[debug]   Load.apply: structureIndex took 120.2314ms
+[debug]   Load.apply: mkStreams took 2.7906ms
+[info] loading global plugins from C:\Users\zmoha\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 3617.0477ms
+[debug]           Load.loadUnit: plugins took 41.195ms
+[debug]           Load.loadUnit: defsScala took 0.0037ms
+[debug] [Loading] Scanning directory C:\Users\zmoha\OneDrive\Documents\spark-df\project
+[debug]             Load.loadUnit: mkEval took 10.8263ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\zmoha\OneDrive\Documents\spark-df\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.4949 ms
+[info] loading settings for project spark-df-build from idea8.sbt ...
+[debug]               Load.resolveProject(spark-df-build) took 9.1455ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id spark-df-build, base: C:\Users\zmoha\OneDrive\Documents\spark-df\project, plugins: List(<none>))) took 11.1857ms
+[debug] [Loading] Done in C:\Users\zmoha\OneDrive\Documents\spark-df\project, returning: (spark-df-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 147.7171ms
+[debug]           Load.loadUnit: cleanEvalClasses took 5.4647ms
+[debug]         Load.loadUnit(file:/C:/Users/zmoha/OneDrive/Documents/spark-df/project/, ...) took 195.7918ms
+[debug]       Load.apply: load took 198.0203ms
+[debug]       Load.apply: resolveProjects took 0.1436ms
+[debug]       Load.apply: finalTransforms took 7.9713ms
+[debug]       Load.apply: config.delegates took 0.4207ms
+[debug]       Load.apply: Def.make(settings)... took 68.2874ms
+[debug]       Load.apply: structureIndex took 24.3524ms
+[debug]       Load.apply: mkStreams took 0.0031ms
+[info] loading project definition from C:\Users\zmoha\OneDrive\Documents\spark-df\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 645.7269ms
+[debug]     Load.loadUnit: defsScala took 0.0032ms
+[debug] [Loading] Scanning directory C:\Users\zmoha\OneDrive\Documents\spark-df
+[debug]       Load.loadUnit: mkEval took 0.486ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\zmoha\OneDrive\Documents\spark-df, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 2.4327 ms
+[info] loading settings for project spark-df from build.sbt ...
+[debug]         Load.resolveProject(spark-df) took 63.705ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id spark-df, base: C:\Users\zmoha\OneDrive\Documents\spark-df, plugins: List(<none>))) took 67.9789ms
+[debug] [Loading] Done in C:\Users\zmoha\OneDrive\Documents\spark-df, returning: (spark-df)
+[debug]     Load.loadUnit: loadedProjectsRaw took 191.9963ms
+[debug]     Load.loadUnit: cleanEvalClasses took 25.8405ms
+[debug]   Load.loadUnit(file:/C:/Users/zmoha/OneDrive/Documents/spark-df/, ...) took 864.4221ms
+[debug] Load.apply: load took 867.1833ms
+[debug] Load.apply: resolveProjects took 0.1552ms
+[debug] Load.apply: finalTransforms took 40.8789ms
+[debug] Load.apply: config.delegates took 0.5394ms
+[debug] Load.apply: Def.make(settings)... took 135.9073ms
+[debug] Load.apply: structureIndex took 33.6782ms
+[debug] Load.apply: mkStreams took 0.0045ms
+[info] set current project to Spark Dataframe 1 (in build file:/C:/Users/zmoha/OneDrive/Documents/spark-df/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 63304 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 63304, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to Spark Dataframe 1 (in build file:/C:/Users/zmoha/OneDrive/Documents/spark-df/)
+[debug] > Exec(idea-shell, None, None)

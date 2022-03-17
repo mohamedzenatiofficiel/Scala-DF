@@ -1,0 +1,14 @@
+[debug] > Exec(run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\zmoha\OneDrive\Documents\spark-df\target\scala-2.13\classes ...
+[error] C:\Users\zmoha\OneDrive\Documents\spark-df\src\main\scala\fr\data\spark\DataFrame.scala:9:14: not found: value spark
+[error]     val df = spark.read
+[error]              ^
+[error] C:\Users\zmoha\OneDrive\Documents\spark-df\src\main\scala\fr\data\spark\DataFrame.scala:18:20: not found: value spark
+[error]     val peopleDF = spark.read.format("csv").load("codesPostaux.csv")
+[error]                    ^
+[error] two errors found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 4 s, completed 11 mars 2022 à 15:38:10
+[debug] > Exec(idea-shell, None, None)

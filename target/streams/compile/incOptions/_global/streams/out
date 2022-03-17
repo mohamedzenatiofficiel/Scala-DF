@@ -1,0 +1,11 @@
+[debug] Created transactional ClassFileManager with tempDir = C:\Users\zmoha\OneDrive\Documents\spark-df\target\scala-2.13\classes.bak
+[debug] About to delete class files:
+[debug] 	DataFrame$.class
+[debug] 	DataFrame.class
+[debug] We backup class files:
+[debug] 	DataFrame$.class
+[debug] 	DataFrame.class
+[debug] Registering generated classes:
+[debug] 	DataFrame$.class
+[debug] 	DataFrame.class
+[debug] Removing the temporary directory used for backing up class files: C:\Users\zmoha\OneDrive\Documents\spark-df\target\scala-2.13\classes.bak

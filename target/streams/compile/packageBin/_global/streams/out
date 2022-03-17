@@ -1,0 +1,15 @@
+[debug] Packaging C:\Users\zmoha\OneDrive\Documents\spark-df\target\scala-2.13\spark-dataframe-1_2.13-1.0.jar ...
+[debug] Input file mappings:
+[debug] 	fr
+[debug] 	  C:\Users\zmoha\OneDrive\Documents\spark-df\target\scala-2.13\classes\fr
+[debug] 	fr\data
+[debug] 	  C:\Users\zmoha\OneDrive\Documents\spark-df\target\scala-2.13\classes\fr\data
+[debug] 	fr\data\spark
+[debug] 	  C:\Users\zmoha\OneDrive\Documents\spark-df\target\scala-2.13\classes\fr\data\spark
+[debug] 	fr\data\spark\DataFrame$.class
+[debug] 	  C:\Users\zmoha\OneDrive\Documents\spark-df\target\scala-2.13\classes\fr\data\spark\DataFrame$.class
+[debug] 	fr\data\spark\DataFrame.class
+[debug] 	  C:\Users\zmoha\OneDrive\Documents\spark-df\target\scala-2.13\classes\fr\data\spark\DataFrame.class
+[debug] 	log4j.properties
+[debug] 	  C:\Users\zmoha\OneDrive\Documents\spark-df\target\scala-2.13\classes\log4j.properties
+[debug] Done packaging.
